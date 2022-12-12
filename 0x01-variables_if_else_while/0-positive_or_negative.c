@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: 'it checks a number if it is positive,zero or negative.'
- * 
- * Return: Always 0 (success)
- */
+*main - Entry point
+*
+*Description: 'it checks a number if it is positive,zero or negative.'
+* 
+*Return: Always 0 (success)
+*/
 int main(void)
 {
 int n;
