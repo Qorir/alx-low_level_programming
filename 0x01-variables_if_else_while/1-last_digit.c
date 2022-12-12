@@ -5,7 +5,7 @@
 /**
 * main - Entry point
 *
-* Description: print the last digit of a randomly generated number and whether is is greater than 5,less than 6 or 0.
+* Description: print the last digit of a number and whether it is > 5,< 6 or 0.
 *
 *
 * Return: Always 0 (success)
@@ -19,15 +19,15 @@ n = rand() - RAND_MAX / 2;
 
 if ((n % 10) > 5)
 {
-printf("last digit of %d is %d and is greater than 5\n", n, n % 10);
+printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 }
 else if ((n % 10) < 6 && (n % 10) != 0)
 {
-printf("last digit of %d is %d  and is less than 6 and not 0\n", n, n % 10);
+printf("Last digit of %d is %d  and is less than 6 and not 0\n", n, n % 10);
 }
 else
 {
-printf("last digit of  %d is %d and is 0\n", n, n % 10);
+printf("Last digit of  %d is %d and is 0\n", n, n % 10);
 }
 return (0);
 }
