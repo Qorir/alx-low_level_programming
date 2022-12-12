@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 int main(void)
+	/* check if a number is positive,negative or zero*/
 {
 int n;
 srand(time(0));
