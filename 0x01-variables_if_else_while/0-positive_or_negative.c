@@ -1,7 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* check if a number is positive,negative or zero*/
+
+/**
+ * main - Entry point
+ *
+ * Description: 'it checks a number if it is positive,zero or negative.'
+ * 
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 int n;
