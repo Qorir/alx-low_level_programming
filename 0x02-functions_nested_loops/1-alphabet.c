@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Desscription: print alphabets in lower cass followed by new line
- * print_alphabet - prints aphabets in loweecase followed by new line
- * Return: Always 0
+ * print_alphabet: print alphabets in lower case followed by new line
+ *
  */
 
 void print_alphabet(void)
