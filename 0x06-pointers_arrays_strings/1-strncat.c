@@ -5,7 +5,7 @@
  * @src: source string
  * @dest: destination string
  * @n: number of bytes from src to be appended to dest
- * Return: pointer to the resulting string 
+ * Return: pointer to the resulting string
  */
 
 char *_strncat(char *dest, char *src, int n)
