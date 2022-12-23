@@ -7,7 +7,7 @@
  * @n: max number of bytes to be copied
  */
 
-char *_strncpy(chaf *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0, src_len = 0;
 
