@@ -1,8 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _isupper(int c)
-	
-	
-	
-#endif 
+/**
+ * header file containing prototypes of task in 0x04-more_functions_nested_loops
+ */
+
+int _isupper(int c);
+
+
+#endif
