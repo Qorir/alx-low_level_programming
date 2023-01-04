@@ -9,7 +9,7 @@
  * Return:a pointer to @dest
  */
 
-char *_memcpy(char *dest, const char *src, unsigned int n)
+void *_memcpy(void *dest, const void *src, unsigned int n)
 {
 	unsigned int i;
 	unsigned char *destination = dest;
