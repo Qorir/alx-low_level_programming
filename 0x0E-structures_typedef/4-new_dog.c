@@ -51,7 +51,7 @@ char *_strcopy(char *dest, char *src)
  * Return: nee struct dog
  */
 
-dog_t *new_dog(char *name, int age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *kim;
 
@@ -62,14 +62,14 @@ dog_t *new_dog(char *name, int age, char *owner)
 	if (kim == NULL)
 		return (NULL);
 
-	kim->name = malloc(sizeof(char) * (strlen(name) + 1));
+	kim->name = malloc(sizeof(char) * (_strlen(name) + 1));
 	if (kim->name == NULL)
 	{
 		free(kim);
 		return (NULL);
 	}
 
-	kim->owner = malloc(sizeof(char) * (strlen(name) + 1));
+	kim->owner = malloc(sizeof(char) * (_strlen(name) + 1));
 	if (kim->owner == NULL)
 	{
 		free(kim->name);
@@ -78,7 +78,7 @@ dog_t *new_dog(char *name, int age, char *owner)
 	}
 
 	kim->name = _strcopy(kim->name, name);
-	kim-age = age;
+	kim->age = age;
 	kim->owner = _strcopy(kim->owner, owner);
 
 	return (kim);
