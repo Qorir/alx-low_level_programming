@@ -7,7 +7,7 @@
  * Return: the number of elements in h
  */
 
-size_t list_len(const char list_t *h)
+size_t list_len(const list_t *h)
 {
 	size_t elements = 0;
 
