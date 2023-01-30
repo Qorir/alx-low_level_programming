@@ -1,11 +1,11 @@
-#ifndef LIST_H
-#define LIST_H
+#ifndef LISTS_H
+#define LISTS_H
 
 /**
  * Desc: header file containing prototypes and definitions of all functions  and types in this directory
  */
 
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct list_s - singly linked list
